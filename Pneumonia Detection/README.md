@@ -18,8 +18,6 @@ A Random Forest classifier is then initialized using scikit-learn's RandomForest
 
 Next, the model's accuracy is evaluated by predicting the labels for the testing data using the predict() function. The classification accuracy is calculated using the score() function. Additionally, the code computes and displays the confusion matrix and accuracy score using scikit-learn's confusion_matrix() and accuracy_score() functions.
 
-As a bonus, the code identifies missclassified images by comparing the predicted labels with the ground truth labels. The indices of missclassified normal and pneumonia images are stored, and these images are displayed using matplotlib's ImageGrid.
-
 Overall, this project aims to develop a pneumonia detection model using machine learning. The code imports necessary libraries, processes the dataset, trains a Random Forest classifier, and evaluates its accuracy. The project provides insights into potential improvements and highlights misclassified images for further analysis.
 
 
